@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity
+END
+footer.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/footer.html
+END
+profile.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/profile.html
+END
+nav.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/nav.html
+END
+dashboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/dashboard.html
+END
+denied.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/denied.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/login.html
+END
+header.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/header.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/velocity/home.html
+END

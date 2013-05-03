@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF
+END
+applicationContext-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/applicationContext-security.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/main/webapp/WEB-INF/web.xml
+END

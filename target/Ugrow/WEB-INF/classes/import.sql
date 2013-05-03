@@ -1,0 +1,16 @@
+INSERT INTO Role (name) VALUES ('teller'),('user'),('supervisor');
+INSERT INTO Language (language) VALUES ('English'),('French'),('German'),('Italian'),('Portuguese'),('Spanish');
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Alejandro Luebs','Globant','Java Developer','alejandro.luebs@globant.com',3,'none','alejandro.luebs','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Eugenio Valeiras','Globant','Java Developer','eugenio.valeiras@globant.com',3,'none','eugenio.valeiras','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Joan Almeida','Globant','Java Developer','joan.almeida@globant.com',3,'none','joan.almeida','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Sebastian Balay','Globant','Java Developer','sebastian.balay@globant.com',3,'none','sebastian.balay','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Nicolas Morales','Globant','Java Developer','nicolas.morales@globant.com',2,'none','nicolas.morales','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Daniel Pilla','Globant','Java Developer','daniel.pilla@globant.com',2,'none','daniel.pilla','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Yair Abraham','Globant','Java Developer','yair.abraham@globant.com',2,'none','yair.abraham','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Leandro Mora','Globant','Java Developer','leandro.mora@globant.com',2,'none','leandro.mora','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Mateo Harfuch','Globant','Java Developer','mateo.harfuch@globant.com',2,'none','mateo.harfuch','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Esteban Butti','Globant','Java Developer','esteban.butti@globant.com',2,'none','esteban.butti','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Dawoon Choi','Globant','Java Developer','dawoon.choi@globant.com',2,'none','dawoon.choi','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Facundo Jauregui','Globant','Java Developer','facundo.jauregui@globant.com',2,'none','facundo.jauregui','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Melina Salomon','Globant','Java Developer','melina.salomon@globant.com',2,'none','melina.salomon','1234',true);
+INSERT INTO User (name,company,jobTitle,email,idRole,experience,username,password,enabled) VALUES ('Maria Colombo','Globant','Java Developer','maria.colombo@globant.com',2,'none','maria.colombo','1234',true);

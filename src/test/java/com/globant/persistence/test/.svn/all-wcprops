@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/test/java/com/globant/persistence/test
+END
+UserDAOTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/test/java/com/globant/persistence/test/UserDAOTest.java
+END
+RoleDAOTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/test/java/com/globant/persistence/test/RoleDAOTest.java
+END
+LanguageDAOTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/139/trunk/UgrowENTREGABLE/src/test/java/com/globant/persistence/test/LanguageDAOTest.java
+END
