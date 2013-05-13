@@ -12,7 +12,7 @@ https://ugrow.googlecode.com/svn
 snbalay
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,13 +26,20 @@ snbalay
 
 2436ed15-d728-04eb-445e-4ba7aaea2bbe
 
+THL.file
+file
+0
+
+
+add
+
 import.sql
 file
 
 
 
 
-2013-04-26T15:15:57.627551Z
+2013-04-26T15:15:57.000000Z
 b370a9f89293c77a80ac94fe14d81933
 2012-07-05T13:48:36.673877Z
 139
@@ -59,4 +66,18 @@ snbalay
 
 
 3141
+
+log4j.properties
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

@@ -6,7 +6,9 @@ import java.util.Date;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+
 import javax.servlet.http.HttpServletRequest;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,7 +16,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.autodesk.clientlib.AnalyticsFormatter;
-import com.autodesk.clientlib.KeyPair;
 import com.autodesk.clientlib.KeyPair.Key;
 import com.globant.entities.Language;
 import com.globant.entities.Role;
@@ -60,19 +61,19 @@ public class AppController{
 	
 	@RequestMapping("/home")
 	public String homeControl(Model model,HttpServletRequest request) {
-//-------------THL---------------------------------------------
-		Date date=new Date();
-		SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy");
-		as_looger.info(format.format(date));
-	   	
-    	AnalyticsFormatter.getInstance().put("PAGE2","HOME");
-		AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");
-    	String output=AnalyticsFormatter.getInstance().outputEvent();
-
-    	as_looger.info(output);	
-    	as_looger.info(Thread.currentThread());
-    	
-//-------------OPTION 2---------------------------------------------
+////-------------THL---------------------------------------------
+//		Date date=new Date();
+//		SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy");
+//		as_looger.info(format.format(date));
+//	   	
+//    	AnalyticsFormatter.getInstance().put("PAGE2","HOME");
+//		AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");
+//    	String output=AnalyticsFormatter.getInstance().outputEvent();
+//
+//    	as_looger.info(output);	
+//    	as_looger.info(Thread.currentThread());
+//    	
+////-------------OPTION 2---------------------------------------------
 		Principal userPrincipal=request.getUserPrincipal();
 		Integer userId=null;
 		if(userPrincipal!=null){
@@ -90,19 +91,19 @@ public class AppController{
 	@RequestMapping("/profile")
 	public String profileControl(Model model,HttpServletRequest request) throws Exception {
 		Boolean isSupervisor = (Boolean)request.getSession().getAttribute("isSupervisor");
-//-------------THL---------------------------------------------
-				Date date=new Date();
-				SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss");
-				as_looger.info(format.format(date));
-			   	
-		    	AnalyticsFormatter.getInstance().put("PAGE-PROF","HOME");
-				AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");
-		    	String output=AnalyticsFormatter.getInstance().outputEvent();
-
-		    	as_looger.info(output);	
-		    	//as_looger.info(Thread.currentThread());
-		    	
-//----------------------------------------------------------
+////-------------THL---------------------------------------------
+//				Date date=new Date();
+//				SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss");
+//				as_looger.info(format.format(date));
+//			   	
+//		    	AnalyticsFormatter.getInstance().put("PAGE-PROF","HOME");
+//				AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");
+//		    	String output=AnalyticsFormatter.getInstance().outputEvent();
+//
+//		    	as_looger.info(output);	
+//		    	//as_looger.info(Thread.currentThread());
+//		    	
+////----------------------------------------------------------
 
 		Integer userId=(Integer)request.getSession().getAttribute("userId");
 		List<Role> roles=getRoleDAO().getAllRoles();
@@ -220,21 +221,26 @@ public class AppController{
 		return pag;
 	}
 	
+	@RequestMapping("/")
+	public String welcomePage(Model model,HttpServletRequest request) throws Exception {
+	        return "login";
+	}
+	
 	@RequestMapping("/login")
 	public String loginControl(Model model,HttpServletRequest request) throws Exception {
 
-//Leo -----THL----------------------------------------------------PUT
-		Date date=new Date();
-		SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss");
-		as_looger.info(format.format(date));
-    	
-		AnalyticsFormatter.getInstance().put("PAGE-LOG","login");
-		AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");    	
-    	String output=AnalyticsFormatter.getInstance().outputEvent();
-    	
-    	as_looger.info(output);	
-    	as_looger.info(Thread.currentThread());
-//--------------------------------------------------------------
+////Leo -----THL----------------------------------------------------PUT
+//		Date date=new Date();
+//		SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss");
+//		as_looger.info(format.format(date));
+//    	
+//		AnalyticsFormatter.getInstance().put("PAGE-LOG","login");
+//		AnalyticsFormatter.getInstance().put(Key.API_METHOD,"POST");    	
+//    	String output=AnalyticsFormatter.getInstance().outputEvent();
+//    	
+//    	as_looger.info(output);	
+//    	as_looger.info(Thread.currentThread());
+////--------------------------------------------------------------
 		String pageForward=null;
 		Boolean isSupervisor = (Boolean)request.getSession().getAttribute("isSupervisor");
 		if(isSupervisor==null){
